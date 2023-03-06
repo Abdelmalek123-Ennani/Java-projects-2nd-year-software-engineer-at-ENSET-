@@ -17,3 +17,15 @@ try {
   // code that will always run, regardless of whether an exception was thrown or not
 }
 ```
+
+<p>In this example, the code inside the try block may throw one of two types of exceptions: ExceptionType1 or ExceptionType2. If an exception is thrown, the appropriate catch block will execute. The finally block will always execute, regardless of whether an exception was thrown or not.</p>
+
+<p>You can also throw your own exceptions using the throw statement. Here's an example:</p>
+
+```java
+if (someCondition) {
+  throw new Exception("An error occurred");
+}
+```
+
+<p>In this example, if someCondition is true, an Exception with the message "An error occurred" will be thrown.</p>
